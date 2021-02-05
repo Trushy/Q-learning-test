@@ -26,4 +26,4 @@ jobs:
         pip install pygame
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: run app
-      run:  python3 main.py
+      run:  python3 main.py map.txt
